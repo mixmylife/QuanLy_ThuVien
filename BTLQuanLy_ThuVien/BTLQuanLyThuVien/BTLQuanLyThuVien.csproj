@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A2EB739-05E1-43F5-8937-6C95C15FEB29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BTLQuanLyThuVien</RootNamespace>
+    <AssemblyName>BTLQuanLyThuVien</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GioiThieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GioiThieu.Designer.cs">
+      <DependentUpon>GioiThieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyDocGia.Designer.cs">
+      <DependentUpon>QuanLyDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyMuonTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyMuonTra.Designer.cs">
+      <DependentUpon>QuanLyMuonTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung.Designer.cs">
+      <DependentUpon>QuanLyNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNhanVien.Designer.cs">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNhaXuatBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNhaXuatBan.Designer.cs">
+      <DependentUpon>QuanLyNhaXuatBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLySach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLySach.Designer.cs">
+      <DependentUpon>QuanLySach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TacGia.Designer.cs">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKeBaoCao.Designer.cs">
+      <DependentUpon>ThongKeBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TruyXuat.cs" />
+    <Compile Include="XuatDanhSachCuaMotDocGiaQuaHan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XuatDanhSachCuaMotDocGiaQuaHan.Designer.cs">
+      <DependentUpon>XuatDanhSachCuaMotDocGiaQuaHan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XuatDanhSachCuaMotNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XuatDanhSachCuaMotNXB.Designer.cs">
+      <DependentUpon>XuatDanhSachCuaMotNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XuatDanhSachMotNgayCuaNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XuatDanhSachMotNgayCuaNhanVien.Designer.cs">
+      <DependentUpon>XuatDanhSachMotNgayCuaNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XuatDanhSachNhungDocGiaMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XuatDanhSachNhungDocGiaMuon.Designer.cs">
+      <DependentUpon>XuatDanhSachNhungDocGiaMuon.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GioiThieu.resx">
+      <DependentUpon>GioiThieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuanLyDocGia.resx">
+      <DependentUpon>QuanLyDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyMuonTra.resx">
+      <DependentUpon>QuanLyMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNguoiDung.resx">
+      <DependentUpon>QuanLyNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNhanVien.resx">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNhaXuatBan.resx">
+      <DependentUpon>QuanLyNhaXuatBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLySach.resx">
+      <DependentUpon>QuanLySach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TacGia.resx">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKeBaoCao.resx">
+      <DependentUpon>ThongKeBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XuatDanhSachCuaMotDocGiaQuaHan.resx">
+      <DependentUpon>XuatDanhSachCuaMotDocGiaQuaHan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XuatDanhSachCuaMotNXB.resx">
+      <DependentUpon>XuatDanhSachCuaMotNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XuatDanhSachMotNgayCuaNhanVien.resx">
+      <DependentUpon>XuatDanhSachMotNgayCuaNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XuatDanhSachNhungDocGiaMuon.resx">
+      <DependentUpon>XuatDanhSachNhungDocGiaMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\379908820_671200811607225_2534851325948578594_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\347094159_1992868207760087_2765319686855659410_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\global-data-security-personal-data-security-cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37355.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-user_64572.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4058771.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6652191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-employee-icon-vector-illustration-in-glyph-style-for-any-purpose-png-image_998315.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-photographs-of-unmanned-bookstores-in-the-library-image_785535.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-03 205801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\271438233_4659282224186442_876952536124439257_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_5860692.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maintenance_87114511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-03 185653.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-03 185812.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-03 185933.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc_sach_nang_cao_kien_thuc_ce1081cdaf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\271463534_451675346574155_3632322616470276649_n.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_58606921.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-20 222518.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-20 222548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-20 222601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-20 222741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\271463534_451675346574155_3632322616470276649_n1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

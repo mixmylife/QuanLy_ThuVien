@@ -1,0 +1,15 @@
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\bin\Debug\VVVVV.exe.config
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\bin\Debug\VVVVV.exe
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\bin\Debug\VVVVV.pdb
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.csproj.AssemblyReference.cache
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.csproj.SuggestedBindingRedirects.cache
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.ThongKe_BaoCao.resources
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.Properties.Resources.resources
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.csproj.GenerateResource.cache
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.csproj.CoreCompileInputs.cache
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.exe
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.pdb
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.XuatDanhSach1NgayCuaNhanVien.resources
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.XuatDanhSachCua1NXB.resources
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.XuatDanhSachDocGiaQuaHan.resources
+D:\K1Nam4\ThucHanhNET\VVVVV\VVVVV\obj\Debug\VVVVV.XuatDanhSachNhungSachDocGiaMuon.resources
